@@ -25,6 +25,10 @@ public class Bird : MonoBehaviour
         Debug.Log("DIE");
         Time.timeScale = 0;
     }
+    public void IncreaseScore()
+    {
+        _score++;
+    }
 }
 
 
